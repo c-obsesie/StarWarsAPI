@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding: 0;
+  
+
+}
+
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+   
+}
+.inline{
+    display: flex;
+    flex-wrap: wrap;
+    
+   
+    
+}
+.ship{
+    margin: 3rem;
+    padding-top:1rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border: 1.2px solid;
+    flex-basis: 7%
+    
+  
+}
+
+
+.most{color:red}
+
+.model{
+    color: rgb(186, 186, 186);
+}
+
+.name-crew,
+.name-film,
+.name-passangers{ 
+    display: flex;
+    margin: 1rem;
+    color:rgb(197, 197, 197)
+}
+.char-container{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.film-container,
+.passengers-container,
+.crew-container{
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
